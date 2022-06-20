@@ -5,7 +5,7 @@ import openai
 from typing import Optional
 
 
-class Gpt3(Executor):
+class Gpt3TextGeneration(Executor):
     def __init__(
         self,
         api_key: Optional[str] = None,

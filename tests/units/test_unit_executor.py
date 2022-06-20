@@ -1,4 +1,4 @@
-from executor import Gpt3
+from executor import Gpt3TextGeneration
 import os
 from docarray import DocumentArray, Document
 
@@ -9,7 +9,7 @@ _temperature = 0.7
 
 def test_complete():
 
-    executor = Gpt3(api_key=_API_KEY)
+    executor = Gpt3TextGeneration(api_key=_API_KEY)
 
     text = 'Write a tagline for an ice cream shop:'
 
@@ -22,7 +22,7 @@ def test_complete():
 
 def test_complete_wo_api_key():
 
-    executor = Gpt3()
+    executor = Gpt3TextGeneration()
 
     text = 'Write a tagline for an ice cream shop:'
 
@@ -36,7 +36,7 @@ def test_complete_wo_api_key():
 
 def test_complete_wo_max_tokens():
 
-    executor = Gpt3()
+    executor = Gpt3TextGeneration()
 
     text = 'Write a tagline for an ice cream shop:'
 
@@ -50,7 +50,7 @@ def test_complete_wo_max_tokens():
 
 def test_complete_wo_temperature():
 
-    executor = Gpt3()
+    executor = Gpt3TextGeneration()
 
     text = 'Write a tagline for an ice cream shop:'
 
