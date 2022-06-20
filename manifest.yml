@@ -1,0 +1,6 @@
+manifest_version: 1
+name: Gpt3TextGeneration
+description: "Generate human-like text using OpenAI GPT-3"
+url: https://github.com/Shubhamsaboo/gpt3-text-generation
+keywords: [gpt3, text]
+

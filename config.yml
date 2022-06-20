@@ -1,0 +1,4 @@
+jtype: Gpt3TextGeneration
+metas:
+  py_modules:
+    - executor.py
