@@ -1,8 +1,16 @@
-# Gpt3TextGeneration
+<p align="center">
+<img src="https://drive.google.com/uc?id=1NYZ3JmKRVCpida6KNKWFcJ8WYBoAqmnJ" alt="GPT-3" width="80%">
+<br>
+<b>Generate human-like text using OpenAI GPT-3<sup><a href="https://learning.oreilly.com/library/view/gpt-3/9781098113612/">?</a></sup> via a text-in, text-out API</b>
+</p>
 
-Generate human-like text using OpenAI GPT-3 via a **_text-in, text-out_** API. 
+<p align=center>
+<a href="https://slack.jina.ai"><img src="https://img.shields.io/badge/Slack-3.1k-blueviolet?logo=slack&amp;logoColor=white&style=flat-square"></a>
+<a href="https://colab.research.google.com/github/Shubhamsaboo/gpt3-text-generation/blob/main/Jina_GPT3.ipynb"><img src="https://img.shields.io/badge/Open-in%20Colab-brightgreen?logo=google-colab&style=flat-square" alt="Open in Google Colab"/></a>
+</p>
 
-## Overview
+
+## Gpt3TextGeneration
 GPT-3 is the first-ever generalized language model in the field of natural language processing that can perform equally well on an array of NLP tasks. It stands for Generative Pre-trained Transformer, which can produce text remarkably similar to that produced by a human.
 
 ## Usage
